@@ -3,7 +3,6 @@ package com.example.demo.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.beans.factory.annotation.Value;
 
 import java.time.LocalDateTime;
 import java.util.Set;
@@ -44,7 +43,6 @@ public class User {
     @Column(name = "token")
     private String token;
 
-    //siempre se inserta true
     @Column(name = "is_active")
     private boolean isActive;
 
